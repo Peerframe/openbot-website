@@ -4,7 +4,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const source = JSON.parse(readFileSync(resolve(root, "openbot-source.json"), "utf8"));
-if (source.repository !== "https://github.com/yxflc11/openbot.git" || !/^[a-f0-9]{40}$/.test(source.commit)) {
+if (source.repository !== "https://github.com/Peerframe/openbot.git" || !/^[a-f0-9]{40}$/.test(source.commit)) {
   throw new Error("Review an exact OpenBot repository commit before building the product demo.");
 }
 const checkout = resolve(root, ".cache/openbot");

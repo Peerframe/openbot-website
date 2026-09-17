@@ -21,4 +21,4 @@ Open task details for the failure category. A timeout, cancelled task or exhaust
 
 ## Report a problem
 
-Use the [bug report form](https://github.com/yxflc11/openbot/issues/new/choose). Include version, platform, expected behavior and minimal reproduction steps. Remove API keys, private transcripts and account data from logs or screenshots. For a security issue, use [private reporting](https://github.com/yxflc11/openbot/security/advisories/new).
+Use the [bug report form](https://github.com/Peerframe/openbot/issues/new/choose). Include version, platform, expected behavior and minimal reproduction steps. Remove API keys, private transcripts and account data from logs or screenshots. For a security issue, use [private reporting](https://github.com/Peerframe/openbot/security/advisories/new).

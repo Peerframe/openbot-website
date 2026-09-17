@@ -21,4 +21,4 @@ description: "常见问题 — OpenBot"
 
 ## 反馈问题
 
-使用 [问题反馈入口](https://github.com/yxflc11/openbot/issues/new/choose)，提供版本、系统、预期行为和最小复现步骤。日志与截图先移除密钥、私人对话和账户信息。安全问题使用 [私密报告](https://github.com/yxflc11/openbot/security/advisories/new)。
+使用 [问题反馈入口](https://github.com/Peerframe/openbot/issues/new/choose)，提供版本、系统、预期行为和最小复现步骤。日志与截图先移除密钥、私人对话和账户信息。安全问题使用 [私密报告](https://github.com/Peerframe/openbot/security/advisories/new)。
