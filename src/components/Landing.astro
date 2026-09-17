@@ -3,7 +3,7 @@ import "../styles/landing.css";
 const { locale } = Astro.props;
 const zh = locale === "zh-cn";
 const base = `/openbot-website/${zh ? "zh-cn/" : ""}`;
-const github = "https://github.com/yxflc11/openbot";
+const github = "https://github.com/Peerframe/openbot";
 const releaseReady = true;
 const copy = zh
   ? {
@@ -90,9 +90,9 @@ const copy = zh
     <title>{copy.title}</title>
     <meta name="description" content={copy.intro} />
     <meta name="theme-color" content="#ffffff" />
-    <link rel="canonical" href={`https://yxflc11.github.io${base}`} />
-    <link rel="alternate" hreflang="en" href="https://yxflc11.github.io/openbot-website/" />
-    <link rel="alternate" hreflang="zh-CN" href="https://yxflc11.github.io/openbot-website/zh-cn/" />
+    <link rel="canonical" href={`https://peerframe.github.io${base}`} />
+    <link rel="alternate" hreflang="en" href="https://peerframe.github.io/openbot-website/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://peerframe.github.io/openbot-website/zh-cn/" />
   </head>
   <body>
     <a class="skip-link" href="#main">{zh ? "跳到正文" : "Skip to content"}</a>

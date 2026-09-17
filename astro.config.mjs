@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-  site: "https://yxflc11.github.io",
+  site: "https://peerframe.github.io",
   base: "/openbot-website",
   integrations: [
     starlight({
@@ -12,8 +12,8 @@ export default defineConfig({
         root: { label: "English", lang: "en" },
         "zh-cn": { label: "简体中文", lang: "zh-CN" },
       },
-      social: [{ icon: "github", label: "GitHub", href: "https://github.com/yxflc11/openbot" }],
-      editLink: { baseUrl: "https://github.com/yxflc11/openbot-website/edit/main/" },
+      social: [{ icon: "github", label: "GitHub", href: "https://github.com/Peerframe/openbot" }],
+      editLink: { baseUrl: "https://github.com/Peerframe/openbot-website/edit/main/" },
       customCss: ["./src/styles/docs.css"],
       sidebar: [
         {

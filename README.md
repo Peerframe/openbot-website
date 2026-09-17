@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-The standalone product website and English/Chinese manuals for [OpenBot](https://github.com/yxflc11/openbot). Product runtime code remains in that repository. This repository owns the landing page, public documentation, search and deployment.
+The standalone product website and English/Chinese manuals for [OpenBot](https://github.com/Peerframe/openbot). Product runtime code remains in that repository. This repository owns the landing page, public documentation, search and deployment.
 
 Built with Astro 7.2.10 and Starlight 0.42.0 (MIT). The demonstration is built from the exact OpenBot commit in `openbot-source.json`; it reuses real product components with clearly labeled synthetic data and no model connection. Generated files and the source checkout stay ignored.
 
@@ -27,4 +27,4 @@ npm run dev
 - `.github/workflows/site.yml`: build and GitHub Pages deployment.
 - `vercel.json`: the connected Vercel preview uses the same pinned demo preparation and validated static build. `scripts/prepare-vercel.mjs` places that build under its canonical `/openbot-website/` directory; it adds no server runtime. Configuration follows the [Vercel static configuration contract](https://vercel.com/docs/project-configuration/vercel-json).
 
-The website has no Owner session, backend, keys, model calls or plugin-installation authority. Canonical protocol/architecture documents and reviewed plugin metadata remain in OpenBot. Deploy target: https://yxflc11.github.io/openbot-website/ (Chinese: `/zh-cn/`). MIT licensed; upstream framework notices remain with dependencies and OpenBot owns the reused product code.
+The website has no Owner session, backend, keys, model calls or plugin-installation authority. Canonical protocol/architecture documents and reviewed plugin metadata remain in OpenBot. Deploy target: https://peerframe.github.io/openbot-website/ (Chinese: `/zh-cn/`). MIT licensed; upstream framework notices remain with dependencies and OpenBot owns the reused product code.
